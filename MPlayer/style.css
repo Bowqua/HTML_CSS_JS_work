@@ -1,0 +1,246 @@
+﻿body {
+    background: url(background_space.jpg);
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    padding: 50px 0 0 120px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-family: "Istok Web", sans-serif;
+    text-decoration: none;
+}
+
+nav img {
+    padding-right: 100px;
+}
+
+#reliance_about {
+    scroll-margin-top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main_text_image p {
+    font-family: Kenia, sans-serif;
+    color: #FFFFFF;
+    font-size: 130px;
+    padding-left: 115px;
+    height: 5px;
+}
+
+.main_text_image img {
+    position: absolute;
+    padding-left: 850px;
+    margin-top: -400px;
+    width: 550px;
+    z-index: 1;
+}
+
+#cabel_image {
+    position: absolute;
+    width: 350px;
+    padding-left: 917px;
+    margin-top: 400px;
+    z-index: 0;
+    filter: brightness(0.6);
+}
+
+#first_word {
+    padding-top: 50px;
+}
+
+.description {
+    width: 240px;
+    padding-top: 150px;
+    padding-left: 115px;
+    font-family: "Istok Web", sans-serif;
+    color: #FFFFFF;
+}
+
+.music {
+    font-family: Karia, sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-left: 115px;
+    padding-top: 50px;
+    padding-bottom: 1020px;
+    margin-top: 350px;
+    position: relative;
+    z-index: 2;
+    background: #D53005 linear-gradient(to bottom, #D53005 50%, #000000 55%);
+}
+
+.music button {
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 500px;
+    height: 83px;
+    margin-bottom: 70px;
+    background: linear-gradient(to right, #B13E18 40%, #F3501A 90%);
+    border: 2px solid #B13E18;
+    box-shadow: 4px 4px 3px #00000080;
+    position: relative;
+    cursor: pointer;
+}
+
+#reliance {
+    padding-bottom: 200px;
+}
+
+.music img {
+    width: 900px;
+    padding-left: 550px;
+    margin-top: -490px;
+}
+
+.about {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: Karla, sans-serif;
+    position: relative;
+    z-index: 2;
+    padding-left: 115px;
+    padding-top: 1px;
+}
+
+#text_for_center {
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 280px;
+    width: 850px;
+    height: 83px;
+}
+
+#reliance_about {
+    margin-top: -750px;
+}
+
+.store {
+    display: block;
+    background: #D53005;
+    position: relative;
+    z-index: 3;
+    padding-left: 115px;
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #D53005 97%, #000000 100%);
+
+}
+
+.name_of_the_block {
+    font-family: Karla, sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+
+.store img {
+    width: 950px;
+    padding-left: 500px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.store button {
+    font-family: Montserrat, sans-serif;
+    border-radius: 40px;
+    width: 250px;
+    height: 70px;
+    margin-left: 125px;
+    box-shadow: 4px 4px 3px #00000080;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+#first_button {
+    background: #000000;
+    color: white;
+    margin-bottom: 55px;
+}
+
+#second_button {
+    margin-bottom: 80px;
+}
+
+.main_chapter {
+    width: 500px;
+    text-align: center;
+}
+
+#main_heading {
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#main_text {
+    font-family: Montserrat, sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 300px;
+}
+
+.highlight {
+    color: black;
+    text-decoration: underline;
+}
+
+.highlight a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+}
+
+.table_highlight {
+    font-weight: 600;
+}
+
+footer table {
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+footer table td {
+    font-weight: 400;
+    text-align: left;
+    padding-left: 200px;
+    height: 40px;
+}
+
+footer table a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-family: Kenia, sans-serif;
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-left: 115px;
+    line-height: 50px;
+}
+
+.supports {
+    padding-left: 115px;
+    margin-top: -50px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.supports a {
+    text-decoration: none;
+    color: inherit;
+}
