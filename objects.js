@@ -99,3 +99,56 @@ let text = prompt();
 console.log(text.slice(0, 5));
 */
 
+// Math functions
+
+/*
+//1
+let a = Number(prompt());
+let b = Number(prompt());
+let c = Number(prompt());
+let p = (a + b + c) / 2;
+
+console.log(Math.round(Math.sqrt(p * (p - a) * (p - b) * (p - c))));
+*/
+
+/*
+//2
+let x1 = Number(prompt());
+let y1 = Number(prompt());
+let x2 = Number(prompt());
+let y2 = Number(prompt());
+
+console.log(Math.round(Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)));
+*/
+
+/*
+//3
+let radius = Number(prompt());
+console.log(Math.round(Math.PI * radius ** 2));
+*/
+
+// Date & Time
+
+/*
+//1
+let year = Number(prompt());
+let month = Number(prompt())-1;
+let day = Number(prompt());
+
+const cur = new Date(year, month, day);
+const nextYear = new Date(year + 1, 0, 1);
+
+console.log(Math.floor((nextYear - cur) / (1000 * 60 * 60 * 24)));
+*/
+
+/*
+//2
+let year = Number(prompt());
+let month = Number(prompt()) - 1;
+let day = Number(prompt());
+
+const cur = new Date(year, month, day);
+const nextMonth = new Date(year, month + 1, 1, 0, 0, 0);
+
+console.log(Math.floor((nextMonth - cur) / (1000 * 60 * 60 * 24)));
+*/
