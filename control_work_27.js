@@ -60,3 +60,43 @@ function intersection(array1, array2){
     return result;
 }
 */
+
+// Level 2
+
+/*
+//1
+let text = prompt();
+let reversed = text.split("").reverse().join("");
+
+console.log(text == reversed ? 'YES' : 'NO');
+*/
+
+/*
+//2
+let text = prompt();
+let result = text.split("").sort().join("");
+
+console.log(result);
+*/
+
+/*
+//3
+let text = prompt().split(/\s+/);
+let result = text.filter(word => ((word.match(/[aAаА]/g) || []).length <= 1));
+
+console.log(result.reduce((best, word) => best == null || word.length < best.length ? word : best, null));
+*/
+
+/*
+//4
+let text = prompt();
+let regex = /^(25[0-5]|2[0-4]\d|[01]?\d\d?)(\.(25[0-5]|2[0-4]\d|[01]?\d\d?)){3}$/;
+
+console.log(regex.test(text) ? 'YES' : 'NO');
+*/
+
+/*
+//5
+let text = prompt().split('-');
+console.log(`Уважаемый ${text[0]}, приглашаем вас на встречу в ${text[1]} в ${text[2]}`);
+*/
