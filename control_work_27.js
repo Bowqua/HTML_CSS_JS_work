@@ -100,3 +100,89 @@ console.log(regex.test(text) ? 'YES' : 'NO');
 let text = prompt().split('-');
 console.log(`Уважаемый ${text[0]}, приглашаем вас на встречу в ${text[1]} в ${text[2]}`);
 */
+
+// Level 3
+
+/*
+//1
+function isPowerOfTwo(num){
+    return num > 0 && (num & (num - 1)) == 0 ? 1 : 0;
+}
+*/
+
+/*
+//2
+function longestCommonSubstring(words) {
+    let shortest = words.reduce((a, b) => a.length <= b.length ? a : b);
+
+    for (let length = shortest.length; length > 0; length--)
+        for (let i = 0; i <= shortest.length - length; i++) {
+            let substring = shortest.slice(i, i + length);
+
+            if (words.every(word => word.includes(substring)))
+                return substring;
+        }
+
+    return '';
+}
+
+console.log(longestCommonSubstring(prompt().split(" ")));
+*/
+
+/*
+//3
+function findAnagrams(words) {
+    let anagrams = new Map();
+
+    for (let word of words) {
+        let key = word.split('').sort().join('');
+
+        if (!anagrams.has(key))
+            anagrams.set(key, []);
+
+        anagrams.get(key).push(word);
+    }
+
+    for (let anagram of anagrams.values()) {
+        if (anagram.length > 1)
+            console.log(anagram);
+    }
+}
+
+findAnagrams(prompt().split(" "));
+*/
+
+/*
+//4
+function wordsWithOnlyLetters(words) {
+    let regex = /[^a-zA-Z]/;
+    let result = [];
+
+    for (let word of words)
+        if (!regex.test(word))
+            result.push(word);
+
+    return result;
+}
+*/
+
+/*
+//5
+function mostCommonWord(words) {
+    let frequency = new Map();
+    let count = 0;
+    let commonWord = null;
+
+    for (let word of words) {
+        let value = (frequency.get(word) || 0) + 1;
+        frequency.set(word, value);
+
+        if (value > count) {
+            count = value;
+            commonWord = word;
+        }
+    }
+
+    return commonWord;
+}
+*/
